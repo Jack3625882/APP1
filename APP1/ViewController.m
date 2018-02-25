@@ -15,7 +15,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    ViewController1 *vc = [[ViewController1 alloc]init];
     
     // Do any additional setup after loading the view, typically from a nib.
 }
