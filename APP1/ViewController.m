@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import <ViewController1.h>
 @interface ViewController ()
 
 @end
@@ -16,6 +16,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    ViewController1 *vc = [[ViewController1 alloc]init];
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 
